@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مشروع لجميع انواع الحاسبات الالكترونية">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="image/icon.png">
+    <title>الحاسبة - موقع لجميع انواع الحاسبات</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/icon.png" alt="caluclator-logo">
+            <label for=""> الحاسبة الالكترونية</label>
+        </div>
+    </header>
+
+    <main>
+        <section class="Content">
+            <h1>أحسب زكاة المال</h1>
+            <p>كيف تحسب زكاة المال على موقع الحاسبة ، يمكنك الموقع من حساب قيمة زكاة المال الخاصة بك عند كتابة قيمة ما
+                تمتلك من الاموال بعد تحقيق نصاب الزكاة . </p>
+        </section>
+        <section class="Cal">
+            <input type="text" id="target" placeholder="  ادخل قيمة المال الذي تملكه">
+            <br>
+            <label>
+                تم حساب هذه القيمة بعملة 
+                <strong>الجنية المصري</strong>
+            </label>
+            <br>
+            <button onclick="cal();">احسب الزكاة</button>
+        </section>
+        <br>
+        <section class="Cal-result">
+            <h3>اجمالي قيمة الزكاة : </h3>
+            <p id="output"></p>
+        </section>
+
+        
+
+      
+
+    </main>
+
+    <footer>
+        <h4> 
+            Copyright © 2022 Lokidia - 
+            <a href="">Ahmed Gabr</a>
+        </h4>
+    </footer>
+
+<script src="js/main.js"></script>
+</body>
+
+</html>

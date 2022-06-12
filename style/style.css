@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+/* header style */
+
+header{
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-items: center;
+    height: 60px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+}
+.logo img{
+    width: 40px;
+    padding-left: 10px;
+}
+
+.logo label{
+    font-size: 15pt;
+    color: black;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* end header style */
+
+
+/* main body content style */
+main{
+    width: 100%;
+    padding: 80px 100px;
+    min-height: calc(100vh - 60px - 50px) ;
+}
+
+main .Content p{
+    font-size:  15pt;
+    color: rgb(70, 70, 70);
+    padding:10px 20px;
+}
+
+.Cal input {
+ width: 40vw;
+ min-width: 25vw;
+ height: 40px;
+ padding: 10px;
+ margin: 10px;
+ font-size: 15pt;
+ border-radius: 10px;
+ border: none;
+ box-shadow: 0 2px 5px black;
+}
+
+.Cal input:focus{
+    outline: none;
+}
+
+.Cal button{
+    width: 150px;
+    height: 40px;
+    font-size: 15pt;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 2px 5px black;
+}
+
+.Cal-result p{
+    color: red;
+    font-size: 20pt;
+    padding: 10px;
+}
+
+
+
+
+/* end main body content style */
+
+
+
+
+
+
+/* footer style  */
+
+footer{
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+
+}
+footer h4 a{
+    color: rgb(0, 90, 90);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* end footer style */
+
+
+@media screen and (max-width: 524px) {
+    
+    main {
+       padding: 20px 50px;
+    }
+    .Cal input{
+        width: 200px;
+        font-size: 10pt;
+    }
+
+    
+    footer h4{
+        font-size: 10pt;
+    }
+  
+  }
+
+  @media screen and (max-width: 300px) {
+    
+    main {
+       padding: 10px 30px;
+    }
+
+    .Cal input{
+        width: 150px;
+        font-size: 10pt;
+    }
+
+    footer h4{
+        font-size: 7pt;
+    }
+  
+  }
